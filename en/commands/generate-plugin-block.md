@@ -12,7 +12,7 @@ Option | Details
 -------|-------------
 --module | The Module name.
 --class | Plugin class name
---label | Plugin label
+--plugin-label | Plugin label
 --plugin-id | Plugin id
 --theme-region | Theme region to render Plugin Block
 --inputs | Create inputs in a form.
@@ -24,7 +24,7 @@ Option | Details
 drupal generate:plugin:block  \
   --module="modulename"  \
   --class="DefaultBlock"  \
-  --label="Default block"  \
+  --plugin-label="Default block"  \
   --plugin-id="default_block"  \
   --theme-region="header"  \
   --inputs='"name":"inputtext", "type":"text_format", "label":"InputText", "options":"", "description":"Just an input text", "maxlength":"", "size":"", "default_value":"", "weight":"0", "fieldset":""'
